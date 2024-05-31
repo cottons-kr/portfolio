@@ -61,8 +61,9 @@
   }
   @media (max-width: 800px) {
     position: fixed;
-    width: calc(100% - 60px - 30px);
-    top: 30px;
-    left: 30px;
+    width: calc(100% - 40px - 30px);
+    top: unset;
+    bottom: 20px;
+    left: 20px;
   }
 }

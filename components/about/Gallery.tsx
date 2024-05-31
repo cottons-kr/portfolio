@@ -39,7 +39,7 @@ export function AboutGallery() {
             <RatioImage src='IMG_0752' ratio={4/3} alt='A serene sunset over a calm body of water, with the orange sun casting a warm glow across the sky and reflecting on the water’s surface. A solitary bird is silhouetted against the sunset, flying in the sky. In the distance, dark outlines of hills are visible under the colorful sky.' />
             <RatioImage src='IMG_0428' ratio={1} alt='A close-up view of a tree with small white flowers and green leaves in the foreground, with a section of a modern building visible in the background under a clear blue sky.' />
           </div>
-          <Link href='/gallery'>
+          <Link href='https://gallery.tyeongkim.me/' target='_blank'>
             <div className={styles.link}>
               <div className={styles.seeMore}>
                 {t('See more in Gallery')}

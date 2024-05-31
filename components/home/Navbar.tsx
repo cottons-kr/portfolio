@@ -68,7 +68,7 @@ export function HomeNavbar() {
       <Link href='/'>home</Link>
       <Link href='/gallery'>gallery</Link>
       <Link href='/blog'>blog</Link>
-      <LanguageSelector />
+      {/* <LanguageSelector /> */}
     </motion.nav>
   </>
 }
