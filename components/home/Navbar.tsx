@@ -66,7 +66,7 @@ export function HomeNavbar() {
   return <>
     <motion.nav className={styles.navbar} variants={variants} initial='hidden' animate='visible'>
       <Link href='/'>home</Link>
-      <Link href='/gallery'>gallery</Link>
+      <Link href='https://gallery.tyeongkim.me/' target='_blank'>gallery</Link>
       <Link href='/blog'>blog</Link>
       {/* <LanguageSelector /> */}
     </motion.nav>
