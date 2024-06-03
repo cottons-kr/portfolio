@@ -22,7 +22,10 @@ function App({ Component, pageProps }: AppProps) {
       <meta property='og:type' content='website' />
       <meta property='og:url' content='https://tyeongkim.me/' />
       <meta property='og:site_name' content='Taeyeong Kim' />
-    </Head>
+      <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
+      <link rel="preload" as="style" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.3/packages/wanted-sans/fonts/webfonts/static/split/WantedSans.min.css" />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.3/packages/wanted-sans/fonts/webfonts/static/split/WantedSans.min.css" />
+          </Head>
     <main>
       <Component {...pageProps} />
       <Footer />
